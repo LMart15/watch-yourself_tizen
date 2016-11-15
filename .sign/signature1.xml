@@ -4,7 +4,7 @@
 <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>bWz57dE9yTK1ebLqTGhnKHe6AS5eWt885/drSMTauws=</DigestValue>
+<DigestValue>0I6qQ4D1XWGlbTU0v85kNHkPYTd3Zd5B0dqibVMhivk=</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -12,15 +12,31 @@
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>rz+deC2AvfBakQM144TsyrYMu2UBn3AXAb60bnRO6xY=</DigestValue>
+<DigestValue>J+QcIan/jPa4iZZhdy4WKmCiyFckoK/jJKafJPRrwJk=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>vPjxjOppORd6hn9Bw4sh06gqtDoJzoFbV/8e9FyIdvk=</DigestValue>
 </Reference>
+<Reference URI="img%2F24-7-128.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4cX0ExpMRqq32TYcy+c3oJ25dWodNb9BLqYeRRIrPVk=</DigestValue>
+</Reference>
+<Reference URI="img%2FCCTV-Camera-128-grey.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>o5PiqtYFq0GmdGOXRB1c3sZJO8M5l2FFDmr3PmZpGjM=</DigestValue>
+</Reference>
+<Reference URI="img%2FMessage-Earth-128-white.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IZsKihy7ToA8MotSL/Br2Iw1ZqEp1jSrQxVTKsjTL+E=</DigestValue>
+</Reference>
+<Reference URI="img%2FMicrophone-03-128.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vY7FtiHUV6yGcO9C2q94CyFilBe8vCX1/iOhDWQfXEo=</DigestValue>
+</Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>1tLDRez0zD0ttifjGmr4U23Em2rvOEJYlxuxqq0FMRY=</DigestValue>
+<DigestValue>Isllh3XIfW2NetT6QGheCvnvKjf5XjYyv1BISDiH3VI=</DigestValue>
 </Reference>
 <Reference URI="js%2Fcircle-helper.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -28,7 +44,7 @@
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>7XAuvsDFOYGMRPmw+MsLq2dn8nfDFrefWyZ+BirdQA0=</DigestValue>
+<DigestValue>b3Tone/Vt7ervvq6oH51e/lR4n7c1A7Znzj3u5cYh1E=</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2FLICENSE.MIT">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -939,11 +955,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-NsliKe0sYte2VBVcEtBeAEVJOBTV6NAZLRumbZoCfGGgkz9P9y9Y2JZEj3weQX1jSiIxqSn7ukeM
-VLwuacAhRAha5dNzfOUi6yzD6gTwMhCLaU0CMJe8vmrQVxJPLAOWmZ6RVcKrq3RDUWKIveoRAAou
-E0Jg1OnezbYMm5oEfcTUq2YX6El+aEL/qEde5VaI9gQRnqFdf4Qf0H/YjYSOFXmchgAAd7TzxigU
-LcXE/AbWMi3iws0LMMI0FNvcDSHGYYK3x18xO36MCl2b7ATh39XEDyUnoP2YEaPcVKqtmR+q33LD
-+NH2hhazuQ8h28U/FhW/T75F12O1ud93UFrQJg==
+djwlsG5x1Yr152bVDCD4FL+pR94m3e9vz5F2p/HnxRcbGf0F2YoRVJL8U+BaMaZnFSg+qKquzc8X
+eyTHcovvZpKiKgyJ/IPppPtI+ZvaYSwwbzLsu+/qTIUQ4nDN+LhX9w7TRNKmauMqp4JJzYvoD4tb
+4XAmfRjbo99o4psflKJu4aIOgy7LtCC+fo175jLxnKjQpKPQefstsAH9fukyIuZfE8gtHNxkaJ7Z
+DZQdRQM2zlP1BlyCM88WqMv9b9Ld6HxIqAlJ3icxk6dRINRlqQ3Jhc/DN4gGkNVtx5Wb/YUdFCVe
+1HNk1EwWYRvw1f7CTVdPc1ZE6LcgcZAsWWQlLg==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

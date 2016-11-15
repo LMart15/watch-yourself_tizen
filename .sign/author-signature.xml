@@ -8,15 +8,31 @@
 </Reference>
 <Reference URI="css%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>rz+deC2AvfBakQM144TsyrYMu2UBn3AXAb60bnRO6xY=</DigestValue>
+<DigestValue>J+QcIan/jPa4iZZhdy4WKmCiyFckoK/jJKafJPRrwJk=</DigestValue>
 </Reference>
 <Reference URI="icon.png">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
 <DigestValue>vPjxjOppORd6hn9Bw4sh06gqtDoJzoFbV/8e9FyIdvk=</DigestValue>
 </Reference>
+<Reference URI="img%2F24-7-128.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>4cX0ExpMRqq32TYcy+c3oJ25dWodNb9BLqYeRRIrPVk=</DigestValue>
+</Reference>
+<Reference URI="img%2FCCTV-Camera-128-grey.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>o5PiqtYFq0GmdGOXRB1c3sZJO8M5l2FFDmr3PmZpGjM=</DigestValue>
+</Reference>
+<Reference URI="img%2FMessage-Earth-128-white.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>IZsKihy7ToA8MotSL/Br2Iw1ZqEp1jSrQxVTKsjTL+E=</DigestValue>
+</Reference>
+<Reference URI="img%2FMicrophone-03-128.png">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>vY7FtiHUV6yGcO9C2q94CyFilBe8vCX1/iOhDWQfXEo=</DigestValue>
+</Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>1tLDRez0zD0ttifjGmr4U23Em2rvOEJYlxuxqq0FMRY=</DigestValue>
+<DigestValue>Isllh3XIfW2NetT6QGheCvnvKjf5XjYyv1BISDiH3VI=</DigestValue>
 </Reference>
 <Reference URI="js%2Fcircle-helper.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -24,7 +40,7 @@
 </Reference>
 <Reference URI="js%2Fmain.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
-<DigestValue>7XAuvsDFOYGMRPmw+MsLq2dn8nfDFrefWyZ+BirdQA0=</DigestValue>
+<DigestValue>b3Tone/Vt7ervvq6oH51e/lR4n7c1A7Znzj3u5cYh1E=</DigestValue>
 </Reference>
 <Reference URI="lib%2Ftau%2FLICENSE.MIT">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
@@ -935,11 +951,11 @@
 </Reference>
 </SignedInfo>
 <SignatureValue>
-KLjegvM+NIj7vB3YdmsjH3dFfJbfZf/giF0uVj0jyHHsNIJZLZLQWTaKaL+xVfW+bKKDzFdDUK3e
-KzKs/kCjIyha6Wky7aKulHdfBBPttt79dlh0oW1YwldkBfcT1lL8OhMCLzmHQanDY3Q19lsLZ0dB
-CFpSNHoa0/RJwmjFuLV71S9+XxRmOR4hsQGHKeSIYII8AI+k/y590KUPyY1nhPyRjYQMHlOij7R2
-cK3LIg6SpPWcE3G9EofjWZ4KkMg1TDGqumgV4vtJgYOLBtQbvOkqXzGWi0qnk7XHqtJj1I22hMKE
-BK6LcbaUBndfZri878ZTxH4gFgrux2Nd/75O3w==
+xdN9WftDaK4kIDE4e3DKFc6k1xBEHzYJXUIGQ0lbLxCyx5N8MKdMVWGySA6op+U3vJzzzK2wkkuU
+yrlUNhFcSQM9DfHeDJj9OE+UnaArwKMwceqb1iD2nSFBQ6Su2hmZMCRXfp7NiU5tZRySETEJXymy
+cErThwbI0+CbvRW9GwiNptoU/CEUgZ16h7vIu7PztJ3TgyH5LXYZWabI0e6C9nA6uglvQkLeSx6K
+pMk0yB0/XmzIt8WI1Zj1vSK/GrQgzD9Hiz38qqLEk03FqSB7fsyiDZISZUi+MxuP+62INqhlwus/
+MU+gsRWlU83r7wzJX9IfP9nU9RbC4gv7G2lt0Q==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

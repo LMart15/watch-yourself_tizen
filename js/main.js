@@ -34,6 +34,7 @@ var SASocket = null;
 var CHANNELID = 104;
 var ProviderAppName = "WatchYourselfProvider";
 
+
 function createHTML(log_string)
 {
 	var content = document.getElementById("toast-content");
@@ -126,6 +127,7 @@ function onreceive(channelId, data) {
 function emergMessage() {
 	try {
 		SASocket.sendData(CHANNELID, "EmergencyMsg");
+		createHTML('Emergency Message Sent!');
 	} catch(err) {
 		console.log("exception [" + err.name + "] msg[" + err.message + "]");
 	}
@@ -136,6 +138,7 @@ function emergMessage() {
 function emergCall() {
 	try {
 		SASocket.sendData(CHANNELID, "EmergencyCall");
+		createHTML('Emergency Call Initiated!');
 	} catch(err) {
 		console.log("exception [" + err.name + "] msg[" + err.message + "]");
 	}
@@ -148,6 +151,7 @@ function emergCall() {
 function emergVideo() {
 	try {
 		SASocket.sendData(CHANNELID, "EmergencyVideo");
+		createHTML('Emergency Video Recording');
 	} catch(err) {
 		console.log("exception [" + err.name + "] msg[" + err.message + "]");
 	}
@@ -160,6 +164,7 @@ function emergVideo() {
 function emergAudio() {
 	try {
 		SASocket.sendData(CHANNELID, "EmergencyAudio");
+		createHTML('Emergency Audio Recording');
 	} catch(err) {
 		console.log("exception [" + err.name + "] msg[" + err.message + "]");
 	}
@@ -171,6 +176,8 @@ window.onload = function () {
         if(e.keyName == "back")
             tizen.application.getCurrentApplication().exit();
     });
+    connect();
+
 };
 
 (function(tau) {

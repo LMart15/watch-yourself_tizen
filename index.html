@@ -8,26 +8,35 @@
 	<!-- load theme file for your application -->
 	<link rel="stylesheet"  href="css/style.css">
 </head>
-<body>
-	<div class="ui-page ui-page-active" id="main">
-		<header class="ui-header">
-			<h2 class="ui-title">Watch Yourself</h2>
-		</header>
-		<div class="ui-content">
-			<ul class="ui-listview">
-				<li><a href="#" onclick="connect();">Connect</a></li>
-				<li><a href="#" onclick="emergMessage();">Emergency Message</a></li>
-				<li><a href="#" onclick="emergCall();">Emergency Call</a></li>
-				<li><a href="#" onclick="emergVideo();">Camera Record</a></li>
-				<li><a href="#" onclick="emergAudio();">Audio Record</a></li>
-				<li><a href="#" onclick="disconnect();">Disconnect</a></li>
-			</ul>
-		</div>
-		<div id="toast" class="ui-popup ui-popup-toast">
+<body><div class="ui-page ui-page-active" id="main">
+    <div class="ui-content">
+        <div id="main_top_button">
+        	<a href="#" onclick="emergMessage();">
+            	<img id="main_top_button_img" src="img/Message-Earth-128-white.png" id="image_msg"/>
+            </a>	
+        </div>
+        <div id="main_bottom_button">
+        	<a href="#" onclick="emergCall();">
+            	<img id="main_bottom_button_img" src="img/24-7-128.png" />
+            </a>
+        </div>
+        <div id="image_icon_left">
+        	<a href="#" onclick="emergAudio();">
+            	<img src="img/Microphone-03-128.png" class="image_icon" id="image_mic" />
+            </a>	
+        </div>
+        <div id="image_icon_right">
+        	<a href="#" onclick="emergVideo();">
+            	<img src="img/CCTV-Camera-128-grey.png" class="image_icon" id="image_camera"/>
+            </a>	
+        </div>
+        <div id="toast" class="ui-popup ui-popup-toast">
 			<div id="toast-content" class="ui-popup-content">
 			</div>
 		</div>
-	</div>
+    </div>
+</div>
+
 </body>
 <script type="text/javascript" src="lib/tau/wearable/js/tau.min.js"></script>
 <script type="text/javascript" src="js/circle-helper.js"></script>
