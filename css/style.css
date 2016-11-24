@@ -38,7 +38,7 @@ body {
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-	background-color: #2196F3;
+	background-color: #F44336;
 	padding-top: 25px;
 }
 
@@ -100,5 +100,5 @@ body {
 }
 
 .image_icon {
-	height: 80px;
+	height: 90px;
 }
